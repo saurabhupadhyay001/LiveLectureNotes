@@ -1,9 +1,27 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Mac system files
 .DS_Store
+
+# Audio files
 *.wav
 *.mp3
 *.ogg
 *.flac
+
+# Logs and temp
 *.log
+*.tmp
+*.temp
+
+# Streamlit artifacts
+.streamlit/
+
+# VS Code settings (optional)
+.vscode/
